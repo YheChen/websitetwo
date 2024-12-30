@@ -1,9 +1,9 @@
 import React from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import { RootLayout } from "./layout";
-import Sidescroll from "./components/sidescroll";
-import About from "./components/about";
-import Projects from "./pages/projects";
+import { Layout } from "./layout";
+import Sidescroll from "../components/sidescroll";
+import About from "../components/about";
+import Projects from "../components/projects";
 
 export default function Home() {
   return (

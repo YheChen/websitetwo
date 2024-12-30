@@ -1,4 +1,6 @@
-import { Navbar } from "./components/navbar";
+"use client";
+
+import { Navbar } from "../components/navbar";
 import { Outlet } from "react-router-dom";
 
 export function Layout() {
